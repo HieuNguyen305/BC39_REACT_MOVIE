@@ -57,7 +57,7 @@ class HangGhe extends Component {
 
 const mapStateToProps = state => {
     return {
-        danhSachGheDangDat: state.chair.danhSachGheDangDat
+        danhSachGheDangDat: state.movieReducer.danhSachGheDangDat
     }
 }
 

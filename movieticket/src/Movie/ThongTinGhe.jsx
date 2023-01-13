@@ -50,7 +50,7 @@ class ThongTinGhe extends Component {
 
 const mapStateToProps = state => {
     return {
-        danhSachGheDangDat: state.danhSachGheDangDat,
+        danhSachGheDangDat: state.movieReducer.danhSachGheDangDat,
     }
 }
 
