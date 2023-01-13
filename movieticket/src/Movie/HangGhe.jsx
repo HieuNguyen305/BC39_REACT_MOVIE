@@ -32,13 +32,12 @@ class HangGhe extends Component {
     }
     renderHangGhe = () => {
         if (this.props.soHangGhe === 0) {
-            return <div>
-
+            return <div className='mt-2'>
                 {this.renderSoHang()}
             </div>
         } else {
             return <div>
-                <span style={{ fontSize: '20px' }} className='pr-2'>{this.props.hangGhe.hang}</span>
+                <span style={{ fontSize: '20px' }}>{this.props.hangGhe.hang}</span>
                 {this.renderGhe()}
             </div>
         }
